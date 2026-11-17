@@ -1,20 +1,3 @@
-<!--
-
-=========================================================
-* Volt Pro - Premium Bootstrap 5 Dashboard
-=========================================================
-
-* Product Page: https://themesberg.com/product/admin-dashboard/volt-bootstrap-5-dashboard
-* Copyright 2021 Themesberg (https://www.themesberg.com)
-* License (https://themesberg.com/licensing)
-
-* Designed and coded by https://themesberg.com
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. Please contact us to request a removal.
-
--->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -39,7 +22,60 @@
     @include('layouts.admin.css')
     <!-- end css -->
 
-
+    <!-- Soft Pink Theme -->
+    <link href="https://googleapis.com" rel="stylesheet">
+    <style>
+        body, .content {
+            background-color: #FFF8FA !important;
+            font-family: 'Quicksand', sans-serif !important;
+        }
+        #sidebarMenu, .sidebar {
+            background-color: #FFFFFF !important;
+            border-right: 1.5px solid #FFE3EC !important;
+            box-shadow: 4px 0 24px rgba(255, 166, 196, 0.12) !important;
+        }
+        #sidebarMenu .nav-link,
+        #sidebarMenu .sidebar-text {
+            color: #8C4A64 !important;
+            font-weight: 600 !important;
+            border-radius: 50px !important;
+            margin: 4px 12px !important;
+            padding: 10px 18px !important;
+            transition: all 0.25s ease !important;
+        }
+        #sidebarMenu .sidebar-icon,
+        #sidebarMenu .sidebar-icon svg {
+            color: #D66892 !important;
+        }
+        #sidebarMenu .nav-item:not(.active) .nav-link:hover {
+            background-color: #FFF0F5 !important;
+            color: #D64B82 !important;
+        }
+        #sidebarMenu .nav-item.active > .nav-link {
+            background: linear-gradient(135deg, #FF9EC0 0%, #FF7AA8 100%) !important;
+            color: #FFFFFF !important;
+            box-shadow: 0 6px 16px rgba(255, 122, 168, 0.35) !important;
+        }
+        #sidebarMenu .nav-item.active > .nav-link .sidebar-text,
+        #sidebarMenu .nav-item.active > .nav-link .sidebar-icon,
+        #sidebarMenu .nav-item.active > .nav-link svg {
+            color: #FFFFFF !important;
+        }
+        #sidebarMenu .dropdown-divider {
+            border-top: 1.5px solid #FFE3EC !important;
+            margin: 12px 20px !important;
+        }
+        .navbar-top, footer.bg-white {
+            background-color: #FFFFFF !important;
+            border-radius: 22px !important;
+            border: 1.5px solid #FFE3EC !important;
+            box-shadow: 0 8px 24px rgba(255, 166, 196, 0.1) !important;
+        }
+        footer p, footer a {
+            color: #964867 !important;
+            font-weight: 600;
+        }
+    </style>
 </head>
 
 <body>
